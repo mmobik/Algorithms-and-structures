@@ -1,0 +1,32 @@
+﻿# Python
+*.egg-info/
+*.egg
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+.gigaide/
+*.swp
+*.swo
+*~
+*.java
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JetBrains IDE
+/shelf/
+/workspace.xml
