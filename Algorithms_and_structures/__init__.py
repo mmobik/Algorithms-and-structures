@@ -3,21 +3,28 @@ Data Structures & Algorithms Library
 Профессиональные реализации структур данных и алгоритмов
 """
 
-from .Structures import HashTable, Set, Tuple, Deque, LinkedList
+from .Structures import (
+    HashTable,
+    Set,
+    Tuple,
+    Deque,
+    LinkedList,
+    MaxHeap
+)
 
 from .Algorithms import (
     Enumerate,
     merge_sort,
-    quicksort,
-    quick_sort_in_place,
+    quick_sort,
+    quick_sort_inplace,
     format_numbers,
     join, parser_numbers
 )
 
 __all__ = [
-    'HashTable', 'Set', 'Tuple', 'Deque', 'LinkedList',
-    'Enumerate', 'merge_sort', 'quicksort', 'quick_sort_in_place',
+    'HashTable', 'Set', 'Tuple', 'Deque', 'LinkedList', 'MaxHeap',
+    'Enumerate', 'merge_sort', 'quick_sort', 'quick_sort_inplace',
     'format_numbers', 'join', 'parser_numbers'
 ]
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
