@@ -9,7 +9,8 @@ from .Structures import (
     Tuple,
     Deque,
     LinkedList,
-    MaxHeap
+    MaxHeap,
+    MinHeap
 )
 
 from .Algorithms import (
@@ -22,7 +23,7 @@ from .Algorithms import (
 )
 
 __all__ = [
-    'HashTable', 'Set', 'Tuple', 'Deque', 'LinkedList', 'MaxHeap',
+    'HashTable', 'Set', 'Tuple', 'Deque', 'LinkedList', 'MaxHeap', 'MinHeap',
     'Enumerate', 'merge_sort', 'quick_sort', 'quick_sort_inplace',
     'format_numbers', 'join', 'parser_numbers'
 ]
