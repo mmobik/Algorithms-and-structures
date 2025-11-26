@@ -5,8 +5,9 @@ from .merge_sort import merge_sort
 from .parser_numbers import parser_numbers
 from .quicksort import quick_sort
 from .quick_sort_in_place import quick_sort_inplace
+from .validate_inputs import validate_inputs
 
 __all__ = [
     'Enumerate', 'format_numbers', 'join', 'merge_sort',
-    'parser_numbers', 'quick_sort', 'quick_sort_inplace'
+    'parser_numbers', 'quick_sort', 'quick_sort_inplace', 'validate_inputs'
 ]

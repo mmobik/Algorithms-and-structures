@@ -19,13 +19,14 @@ from .Algorithms import (
     quick_sort,
     quick_sort_inplace,
     format_numbers,
-    join, parser_numbers
+    join, parser_numbers,
+    validate_inputs
 )
 
 __all__ = [
     'HashTable', 'Set', 'Tuple', 'Deque', 'LinkedList', 'MaxHeap', 'MinHeap',
     'Enumerate', 'merge_sort', 'quick_sort', 'quick_sort_inplace',
-    'format_numbers', 'join', 'parser_numbers'
+    'format_numbers', 'join', 'parser_numbers', 'validate_inputs'
 ]
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
