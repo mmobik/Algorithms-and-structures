@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Algorithms_and_structures",
-    version="1.0.3",
+    version="1.0.4",
     packages=find_packages(),
     author="Sergey O",
     package_dir={'Algorithms_and_structures': 'Algorithms_and_structures'},

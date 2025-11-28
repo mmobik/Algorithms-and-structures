@@ -30,4 +30,4 @@ __all__ = [
     'format_numbers', 'join', 'parser_numbers', 'validate_inputs', 'OptimizedHashTable'
 ]
 
-__version__ = "1.0.3"
+__version__ = "1.0.4"
