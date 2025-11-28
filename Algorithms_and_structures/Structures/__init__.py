@@ -5,8 +5,8 @@ from .Tuple import Tuple
 from .Deque import Deque
 from .MaxHeap import MaxHeap
 from .MinHeap import MinHeap
-from .ExternalMemoryDatabase import ExternalMemoryDatabase
+from .OptimizedHashTable import OptimizedHashTable
 
 
 __all__ = ['HashTable', 'Set', 'Tuple', 'Deque', 'LinkedList',
-           'MaxHeap', 'MinHeap', 'ExternalMemoryDatabase']
+           'MaxHeap', 'MinHeap', 'OptimizedHashTable']
