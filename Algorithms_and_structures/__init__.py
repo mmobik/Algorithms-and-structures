@@ -10,7 +10,8 @@ from .Structures import (
     Deque,
     LinkedList,
     MaxHeap,
-    MinHeap
+    MinHeap,
+    ExternalMemoryDatabase
 )
 
 from .Algorithms import (
@@ -26,7 +27,8 @@ from .Algorithms import (
 __all__ = [
     'HashTable', 'Set', 'Tuple', 'Deque', 'LinkedList', 'MaxHeap', 'MinHeap',
     'Enumerate', 'merge_sort', 'quick_sort', 'quick_sort_inplace',
-    'format_numbers', 'join', 'parser_numbers', 'validate_inputs'
+    'format_numbers', 'join', 'parser_numbers', 'validate_inputs',
+    'ExternalMemoryDatabase'
 ]
 
-__version__ = "1.0.2"
+__version__ = "1.0.3"
